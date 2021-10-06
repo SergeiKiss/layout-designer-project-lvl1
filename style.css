@@ -1,10 +1,17 @@
-/* 1)Basic options*/
+/* 1)Basic styles*/
 
 /* 1.1)fonts */
 
 @font-face {
+    font-weight: normal;
     font-family: 'Open Sans';
     src: url(./assets/fonts/Open\ Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-weight: bold;
+    font-family: 'Open Sans';
+    src: url(./assets/fonts/Open\ Sans/static/OpenSans/OpenSans-Bold.ttf);
 }
 
 @font-face {
@@ -18,7 +25,31 @@ body {
     color: #2a2626;
 }
 
-/* 1.2) headings */
+.neucha {
+    font-family: Neucha, cursive;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* 1.2) colors */
+
+/* 1.2.1) font-colors */
+.primary {
+    color: #fe8a02;
+}
+
+.white {
+    color: #ffffff;
+}
+
+/* 1.2.2) background-colors */
+.primary-background {
+    background-color: #fe8a02;
+}
+
+/* 1.3) headings */
 
 h1 {
     line-height: 1.2em;
@@ -35,7 +66,7 @@ h3 {
     font-size: 34px;
 }
 
-/* 1.3) sections */
+/* 1.4) sections */
 
 body {
     display: flex;
@@ -45,4 +76,101 @@ body {
     margin: 100px auto;
 
     max-width: 1110px;
+}
+
+/* 2) Common styles */
+
+.doubled-text {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.text-box {
+    width: 540px;
+}
+
+.headANDimg {
+    position: relative;
+
+    display: flex;
+}
+
+/* 3) Header styles */
+
+/* 3.1) container */
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.background-img::before {
+    display: block;
+    width: 1140px;
+    height: 795px;
+
+    position: absolute;
+    z-index: -2;
+
+    content: "";
+    background-image: url("./assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 6%;
+}
+
+/* 3.2) headAndimg */
+
+.headANDimg-header {
+    width: 800px;
+}
+
+.cogn {
+    display: inline-block;
+    width: 376px;
+}
+
+img[alt="main logo"] {
+    position: absolute;
+    top: -13px;
+    left: 275px;
+    z-index: -1;
+}
+
+/* 3.3) text */
+
+.doubled-text-header {
+    margin-top: 14%;
+}
+
+.text-box-header {
+    margin: 15px;
+}
+
+.inline-block-margin-top {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* 3.4) button */
+
+.more-details {
+    position: relative;
+    left: 50%;
+
+    margin: 24px 12px;
+    padding: 0;
+    border: none;
+
+    width: 149px;
+    height: 48px;
+
+    font-weight: bold;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.more-details:hover {
+    background-color: #ea7600;
 }
