@@ -44,6 +44,14 @@ body {
     color: #ffffff;
 }
 
+.dark {
+    color: #2a2626;
+}
+
+.primary-dark {
+    color: #42413c;
+}
+
 /* 1.2.2) background-colors */
 
 .light-background {
@@ -103,6 +111,12 @@ body {
     position: relative;
 
     display: flex;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 
 .ta-center {
@@ -202,6 +216,11 @@ img[alt="main logo"] {
     margin: 30px auto;
 }
 
+.video-container {
+    position: relative;
+    left: 100px;
+}
+
 .video {
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -209,7 +228,7 @@ img[alt="main logo"] {
 .rectangle37 {
     position: absolute;
     left: -100px;
-    bottom: -10px;
+    bottom: 2px;
     z-index: -1;
 
     display: block;
@@ -217,4 +236,90 @@ img[alt="main logo"] {
     height: 100px;
 
     background-color: #42413c;
+}
+
+/* 5) Navigation section */
+
+.navigation-section {
+    position: relative;
+    top: -3px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+
+    width: 1110px;
+    height: 891px;
+}
+
+.head-nav-item-box {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    margin: 0.9%;
+
+    width: 350px;
+    height: 323px;
+}
+
+.nav-item-box {
+    display: flex;
+    flex-flow: column nowrap;
+
+    margin: 0.9%;
+
+    width: 350px;
+    height: 323px;
+
+    text-decoration: none;
+}
+
+.nav-item-box:hover {
+    background-color: #fe8a02;
+}
+
+.cogn-navigation {
+    font-size: 52px;
+    margin: 0;
+}
+
+.nav-item-box>h2 {
+    position: relative;
+    top: 24px;
+    left: 24px;
+
+    font-size: 64px;
+
+    margin: 0;
+}
+
+.nav-item-box>h3 {
+    position: relative;
+    top: 35px;
+    left: 24px;
+
+    margin: 0;
+}
+
+.nav-item-box>p {
+    position: relative;
+    top: 45px;
+    left: 25px;
+
+    margin: 0;
+
+    width: 302px;
+}
+
+.nav-item-box:hover>h2 {
+    color: #ffffff;
+}
+
+.nav-item-box:hover>h3 {
+    color: #ffffff;
+}
+
+.nav-item-box:hover>p {
+    color: #ffffff;
 }
