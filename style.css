@@ -56,6 +56,14 @@ body {
     color: #908d8b;
 }
 
+.brown {
+    color: #b09a81;
+}
+
+.white50 {
+    color: #d7ccc0;
+}
+
 /* 1.2.2) background-colors */
 
 .light-background {
@@ -71,7 +79,11 @@ body {
 }
 
 .brown-background {
-    background: #b09a81;
+    background-color: #b09a81;
+}
+
+.white-background {
+    background-color: #ffffff;
 }
 
 /* 1.3) headings */
@@ -128,7 +140,7 @@ main {
 }
 
 .flex-jc-center {
-    justify-content: center ;
+    justify-content: center;
 }
 
 /* 2.2) box-model */
@@ -368,23 +380,23 @@ img[alt="main logo"] {
 
 /* 6.1) common styles*/
 
-.container-content-section{
+.container-content-section {
     padding: 100px auto;
     width: 1110px;
     height: 919px;
-}
-
-.distortion-container {
-    margin-left: 30px;
 }
 
 .cogn-distortion {
     font-size: 24px;
 }
 
+.distortion-name {
+    font-size: 60px;
+}
+
 .distortion-desc {
     font-size: 34px;
-    line-height: 41px; 
+    line-height: 41px;
     margin-top: 30px;
 }
 
@@ -396,4 +408,12 @@ img[alt="main logo"] {
 
 /* 6.2) styles of the light section */
 
+.distortion-container-info-light {
+    margin-left: 30px;
+}
+
 /* 6.3) styles of the brown section */
+
+.order-last {
+    order: 1;
+}
