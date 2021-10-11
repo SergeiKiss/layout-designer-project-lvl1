@@ -166,6 +166,11 @@ main {
     margin: 0 0 0 15px;
 }
 
+.inline-block-margin-top {
+    display: inline-block;
+    margin-top: 15px;
+}
+
 .headANDimg {
     position: relative;
 
@@ -220,11 +225,6 @@ img[alt="main logo"] {
 
 .doubled-text-header {
     margin-top: 14%;
-}
-
-.inline-block-margin-top {
-    display: inline-block;
-    margin-top: 15px;
 }
 
 /* 3.4) button */
