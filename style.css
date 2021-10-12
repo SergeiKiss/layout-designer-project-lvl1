@@ -143,10 +143,30 @@ main {
     justify-content: center;
 }
 
+.flex-jc-sa {
+    justify-content: space-around;
+}
+
+.flex-jc-fs {
+    justify-content: flex-start;
+}
+
+.flex-ac-center {
+    align-content: center;
+}
+
+.flex-ac-fe {
+    align-content: flex-end;
+}
+
 /* 2.2) box-model */
 
 .no-margin {
     margin: 0;
+}
+
+.w-1110px {
+    width: 1110px;
 }
 
 /* 2.$) other */
@@ -416,4 +436,113 @@ img[alt="main logo"] {
 
 .order-last {
     order: 1;
+}
+
+/* 7) Footer */
+
+/* 7.1) fieldset */
+
+.input-container {
+    height: 190px;
+}
+
+.input-container>h3 {
+    position: relative;
+    top: 27%;
+
+    margin: 0;
+    height: 80px;
+
+    font-weight: normal;
+}
+
+fieldset {
+    position: relative;
+    top: 20%;
+
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: 120px;
+}
+
+fieldset>h4 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 9px;
+
+    font-size: 18px;
+    font-weight: normal;
+}
+
+fieldset>p {
+    font-size: 12px;
+    margin: 0;
+}
+
+input[type="email"] {
+    width: 423px;
+    height: 50px;
+    padding: 0;
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    opacity: 20%;
+    color: #757575;
+}
+
+::-moz-placeholder {
+    opacity: 20%;
+    color: #757575;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+    opacity: 20%;
+    color: #757575;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+    opacity: 20%;
+    color: #757575;
+}
+
+.send-icon-container {
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    border: none;
+
+    background-color: #fe8a02;
+
+    cursor: pointer;
+
+    content: "";
+}
+
+.send-icon-container:hover {
+    background-color: #ea7600;
+}
+
+.send-icon-container::before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+    background-image: url(./assets/images/send.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    content: "";
+}
+
+.a-service-rules {
+    color: #ffffff;
+}
+
+.footer-useful-text {
+    position: relative;
+    top: 76px;
 }
