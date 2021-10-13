@@ -113,26 +113,38 @@ body {
 
     margin: 100px auto;
 
-    max-width: 1110px;
+    overflow-x: hidden;
 }
 
-
-header {
-    display: flex;
-    flex-flow: column wrap;
-}
-
-main {
-    display: flex;
-    flex-flow: column nowrap;
+footer {
+    position: relative;
+    top: 100px;
 }
 
 /* 2) Common styles */
 
-/* 2.1) flexbox */
+/* 2.1) position */
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+/* 2.2) flexbox */
 
 .flex {
     display: flex;
+}
+
+.flex-flow-rw {
+    flex-flow: row wrap;
+}
+
+.flex-flow-cn {
+    flex-flow: column nowrap;
 }
 
 .flex-column {
@@ -159,14 +171,27 @@ main {
     align-content: flex-end;
 }
 
-/* 2.2) box-model */
+/* 2.3) box-model */
+
+/* 2.3.1) width */
+
+.w-1110px {
+    width: 1110px;
+}
+
+.w-100percent {
+    width: 100%;
+}
+
+/* 2.3.2) margin */
 
 .no-margin {
     margin: 0;
 }
 
-.w-1110px {
-    width: 1110px;
+.inline-block-margin-top {
+    display: inline-block;
+    margin-top: 15px;
 }
 
 /* 2.$) other */
@@ -184,11 +209,6 @@ main {
 .text-box-2 {
     width: 540px;
     margin: 0 0 0 15px;
-}
-
-.inline-block-margin-top {
-    display: inline-block;
-    margin-top: 15px;
 }
 
 .headANDimg {
@@ -229,6 +249,10 @@ main {
     width: 800px;
 }
 
+.headANDimg-header>h1 {
+    z-index: 1;
+}
+
 .cogn-header {
     display: inline-block;
     width: 376px;
@@ -236,8 +260,8 @@ main {
 
 img[alt="main logo"] {
     position: absolute;
-    top: -13px;
-    left: 275px;
+    top: -20px;
+    left: 300px;
     z-index: 0;
 }
 
@@ -299,12 +323,10 @@ img[alt="main logo"] {
 
 .rectangle37 {
     position: absolute;
-    left: -100px;
-    bottom: 2px;
+    top: 845px;
     z-index: -1;
 
     display: block;
-    width: 1110px;
     height: 100px;
 
     background-color: #42413c;
