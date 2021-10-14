@@ -277,9 +277,12 @@ footer {
 
 img[alt="main logo"] {
     position: absolute;
-    top: -20px;
-    left: 265px;
+    top: -10px;
+    left: 295px;
     z-index: 0;
+
+    width: 1082.8125px;
+    height: 525px;
 }
 
 /* 3.3) text */
