@@ -99,6 +99,7 @@ h2 {
     line-height: 1.2em;
     font-size: 60px;
     font-weight: normal;
+    margin: 0;
 
     color: #fe8a02
 }
@@ -285,7 +286,7 @@ img[alt="main logo"] {
 
 .doubled-text-header {
     position: relative;
-    bottom: 5px;
+    bottom: 2px;
 
     margin-top: 14%;
 }
@@ -337,7 +338,7 @@ img[alt="main logo"] {
     position: relative;
     left: 100px;
 
-    height: 472px;
+    height: 474px;
 }
 
 .video {
