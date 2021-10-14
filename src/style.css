@@ -327,10 +327,8 @@ img[alt="main logo"] {
     justify-content: center;
 }
 
-.video-section>h1 {
+.video-section>h2 {
     margin: 100px 0 0 0;
-
-    font-size: 60px;
 }
 
 .video-section>p {
@@ -347,6 +345,8 @@ img[alt="main logo"] {
 .video {
     position: relative;
     z-index: 1;
+
+    border: none;
 
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -452,10 +452,6 @@ img[alt="main logo"] {
 
 .cogn-distortion {
     font-size: 24px;
-}
-
-.distortion-name {
-    font-size: 60px;
 }
 
 .distortion-desc {
