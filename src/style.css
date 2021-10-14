@@ -277,8 +277,8 @@ footer {
 
 img[alt="main logo"] {
     position: absolute;
-    top: -25px;
-    left: 276px;
+    top: -20px;
+    left: 270px;
     z-index: 0;
 }
 
@@ -286,7 +286,7 @@ img[alt="main logo"] {
 
 .doubled-text-header {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
 
     margin-top: 14%;
 }
@@ -336,7 +336,7 @@ img[alt="main logo"] {
 
 .video-container {
     position: relative;
-    left: 105px;
+    left: 95px;
 
     height: 475px;
 }
@@ -356,7 +356,7 @@ img[alt="main logo"] {
 
 .navigation-section {
     position: relative;
-    top: 100px;
+    top: 95px;
 
     display: flex;
     flex-flow: row wrap;
