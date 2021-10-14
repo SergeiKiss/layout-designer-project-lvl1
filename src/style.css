@@ -95,9 +95,12 @@ h1 {
 }
 
 h2 {
+    font-family: Neucha, cursive;
     line-height: 1.2em;
     font-size: 60px;
     font-weight: normal;
+
+    color: #fe8a02
 }
 
 h3 {
@@ -125,7 +128,9 @@ header {
 
 footer {
     position: relative;
-    top: 100px;
+    top: -26px;
+
+    height: 581px;
 }
 
 /* 2) Common styles */
@@ -262,6 +267,8 @@ footer {
 }
 
 .headANDimg-header>h1 {
+    position: relative;
+    bottom: 5px;
     z-index: 1;
 }
 
@@ -330,7 +337,7 @@ img[alt="main logo"] {
     position: relative;
     left: 100px;
 
-    height: 465px;
+    height: 470px;
 }
 
 .video {
