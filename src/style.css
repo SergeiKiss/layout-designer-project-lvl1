@@ -111,7 +111,13 @@ body {
     justify-content: center;
     align-items: center;
 
+    margin: 100px auto;
+
     overflow-x: hidden;
+}
+
+header {
+    height: 914px;
 }
 
 footer {
@@ -221,8 +227,8 @@ footer {
 
 .background-img::before {
     display: block;
-    width: 1140px;
-    height: 795px;
+    width: 1440px;
+    height: 914px;
 
     position: absolute;
 
@@ -240,6 +246,11 @@ footer {
 /* 3) Header styles */
 
 /* 3.1) container */
+
+.header-content-container {
+    position: relative;
+    top: 7%;
+}
 
 /* 3.2) headAndimg */
 
