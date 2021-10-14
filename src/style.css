@@ -127,9 +127,6 @@ header {
 }
 
 footer {
-    position: relative;
-    top: -26px;
-
     height: 581px;
 }
 
@@ -268,7 +265,7 @@ footer {
 
 .headANDimg-header>h1 {
     position: relative;
-    bottom: 5px;
+    bottom: 10px;
     z-index: 1;
 }
 
@@ -279,14 +276,17 @@ footer {
 
 img[alt="main logo"] {
     position: absolute;
-    top: -13px;
-    left: 275px;
+    top: -22px;
+    left: 270px;
     z-index: 0;
 }
 
 /* 3.3) text */
 
 .doubled-text-header {
+    position: relative;
+    bottom: 5px;
+
     margin-top: 14%;
 }
 
@@ -337,7 +337,7 @@ img[alt="main logo"] {
     position: relative;
     left: 100px;
 
-    height: 470px;
+    height: 472px;
 }
 
 .video {
@@ -355,7 +355,7 @@ img[alt="main logo"] {
 
 .navigation-section {
     position: relative;
-    top: 110px;
+    top: 100px;
 
     display: flex;
     flex-flow: row wrap;
@@ -480,7 +480,13 @@ img[alt="main logo"] {
 
 /* 7) Footer */
 
-/* 7.1) fieldset */
+/* 7.1) container */
+
+.footer-content-container {
+    top: 100px;
+}
+
+/* 7.2) fieldset */
 
 .input-container {
     height: 190px;
