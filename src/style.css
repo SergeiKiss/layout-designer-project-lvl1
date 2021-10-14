@@ -91,16 +91,19 @@ body {
 h1 {
     line-height: 1.2em;
     font-size: 72px;
+    font-weight: normal;
 }
 
 h2 {
     line-height: 1.2em;
     font-size: 60px;
+    font-weight: normal;
 }
 
 h3 {
     line-height: 1.2em;
     font-size: 34px;
+    font-weight: normal;
 }
 
 /* 1.4) sections */
@@ -327,6 +330,9 @@ img[alt="main logo"] {
 }
 
 .video {
+    position: relative;
+    z-index: 1;
+
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -343,9 +349,15 @@ img[alt="main logo"] {
 
 /* 5) Navigation section */
 
+#navigation {
+    position: relative;
+    bottom: 100px;
+    height: 991px;
+}
+
 .navigation-section {
     position: relative;
-    top: -3px;
+    top: 92px;
 
     display: flex;
     flex-flow: row wrap;
