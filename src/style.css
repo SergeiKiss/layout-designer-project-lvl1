@@ -272,8 +272,8 @@ footer {
 
 img[alt="main logo"] {
     position: absolute;
-    top: -20px;
-    left: 300px;
+    top: -13px;
+    left: 275px;
     z-index: 0;
 }
 
@@ -318,6 +318,8 @@ img[alt="main logo"] {
 
 .video-section>h1 {
     margin: 100px 0 0 0;
+
+    font-size: 60px;
 }
 
 .video-section>p {
@@ -327,6 +329,8 @@ img[alt="main logo"] {
 .video-container {
     position: relative;
     left: 100px;
+
+    height: 465px;
 }
 
 .video {
@@ -336,28 +340,15 @@ img[alt="main logo"] {
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.rectangle37 {
-    position: absolute;
-    top: 845px;
-    z-index: -1;
-
-    display: block;
-    height: 100px;
-
-    background-color: #42413c;
-}
-
 /* 5) Navigation section */
 
 #navigation {
-    position: relative;
-    bottom: 100px;
     height: 991px;
 }
 
 .navigation-section {
     position: relative;
-    top: 92px;
+    top: 110px;
 
     display: flex;
     flex-flow: row wrap;
@@ -444,9 +435,8 @@ img[alt="main logo"] {
 /* 6.1) common styles*/
 
 .container-content-section {
-    padding: 100px auto;
+    padding: 100px 165px;
     width: 1110px;
-    height: 919px;
 }
 
 .cogn-distortion {
