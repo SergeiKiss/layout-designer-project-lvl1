@@ -20,8 +20,8 @@
 }
 
 body {
-  font-size: 16px;
   color: #2a2626;
+  font-size: 16px;
   line-height: 1.6em;
 }
 
@@ -97,12 +97,11 @@ h1 {
 h2 {
   margin: 0;
 
+  font-size: 60px;
   font-family: Neucha, cursive;
   font-weight: normal;
-  font-size: 60px;
+  color: #fe8a02;
   line-height: 1.2em;
-
-  color: #fe8a02
 }
 
 h3 {
@@ -303,10 +302,11 @@ img[alt="main logo"] {
 
   margin: 24px 12px;
   padding: 0;
-  border: none;
 
   width: 149px;
   height: 48px;
+
+  border: none;
 
   font-weight: bold;
   font-size: 16px;
@@ -364,8 +364,8 @@ img[alt="main logo"] {
 
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
   align-content: center;
+  justify-content: center;
 
   width: 1110px;
   height: 891px;
@@ -375,20 +375,21 @@ img[alt="main logo"] {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
-  margin: 0.9%;
 
   width: 350px;
   height: 323px;
+
+  margin: 0.9%;
 }
 
 .nav-item-box {
   display: flex;
   flex-flow: column nowrap;
 
-  margin: 0.9%;
-
   width: 350px;
   height: 323px;
+
+  margin: 0.9%;
 
   text-decoration: none;
 }
@@ -398,8 +399,9 @@ img[alt="main logo"] {
 }
 
 .cogn-navigation {
-  font-size: 52px;
   margin: 0;
+
+  font-size: 52px;
 }
 
 .nav-item-box > h2 {
@@ -407,9 +409,9 @@ img[alt="main logo"] {
   top: 24px;
   left: 24px;
 
-  font-size: 64px;
-
   margin: 0;
+
+  font-size: 64px;
 }
 
 .nav-item-box > h3 {
@@ -425,30 +427,31 @@ img[alt="main logo"] {
   top: 45px;
   left: 25px;
 
-  margin: 0;
-
   width: 302px;
+
+  margin: 0;
 }
 
 .nav-item-box:hover > h2 {
-  color: #ffffff;
+  color: #fff;
 }
 
 .nav-item-box:hover > h3 {
-  color: #ffffff;
+  color: #fff;
 }
 
 .nav-item-box:hover > p {
-  color: #ffffff;
+  color: #fff;
 }
 
 /* 6) Content section */
 
-/* 6.1) common styles*/
+/* 6.1) common styles */
 
 .container-content-section {
-  padding: 100px 165px;
   width: 1110px;
+
+  padding: 100px 165px;
 }
 
 .cogn-distortion {
@@ -456,15 +459,18 @@ img[alt="main logo"] {
 }
 
 .distortion-desc {
-  font-size: 34px;
-  line-height: 41px;
   margin-top: 30px;
+
+  line-height: 41px;
+  font-size: 34px;
 }
 
 .how-display-block {
-  font-size: 14px;
-  height: 26px;
   margin: 100px 0 20px 0;
+
+  height: 26px;
+
+  font-size: 14px;
 }
 
 /* 6.2) styles of the light section */
