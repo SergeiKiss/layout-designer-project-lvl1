@@ -97,10 +97,11 @@ h1 {
 h2 {
   margin: 0;
 
+  color: #fe8a02;
+
+  font-weight: normal;
   font-size: 60px;
   font-family: Neucha, cursive;
-  font-weight: normal;
-  color: #fe8a02;
   line-height: 1.2em;
 }
 
@@ -300,16 +301,16 @@ img[alt="main logo"] {
   position: relative;
   left: 50%;
 
-  margin: 24px 12px;
-  padding: 0;
-
   width: 149px;
   height: 48px;
 
-  border: none;
+  margin: 24px 12px;
+  padding: 0;
 
   font-weight: bold;
   font-size: 16px;
+
+  border: none;
 
   cursor: pointer;
 }
@@ -461,14 +462,14 @@ img[alt="main logo"] {
 .distortion-desc {
   margin-top: 30px;
 
-  line-height: 41px;
   font-size: 34px;
+  line-height: 41px;
 }
 
 .how-display-block {
-  margin: 100px 0 20px 0;
-
   height: 26px;
+
+  margin: 100px 0 20px 0;
 
   font-size: 14px;
 }
@@ -503,8 +504,9 @@ img[alt="main logo"] {
   position: relative;
   top: 27%;
 
-  margin: 0;
   height: 80px;
+
+  margin: 0;
 
   font-weight: normal;
 }
@@ -513,60 +515,68 @@ fieldset {
   position: relative;
   top: 20%;
 
-  border: none;
-  padding: 0;
-  margin: 0;
   height: 120px;
+
+  margin: 0;
+
+  padding: 0;
+
+  border: none;
 }
 
 fieldset > h4 {
-  padding: 0;
   margin-top: 0;
   margin-bottom: 9px;
 
-  font-size: 18px;
+  padding: 0;
+
   font-weight: normal;
+  font-size: 18px;
 }
 
 fieldset > p {
-  font-size: 12px;
   margin: 0;
+
+  font-size: 12px;
 }
 
 input[type="email"] {
   width: 423px;
   height: 50px;
   padding: 0;
+
   border: none;
 }
 
 ::-webkit-input-placeholder {
-  opacity: 20%;
   color: #757575;
+  opacity: 20%;
 }
 
 ::-moz-placeholder {
-  opacity: 20%;
   color: #757575;
+  opacity: 20%;
 }
 
 /* Firefox 19+ */
 :-moz-placeholder {
-  opacity: 20%;
   color: #757575;
+  opacity: 20%;
 }
 
 /* Firefox 18- */
 :-ms-input-placeholder {
-  opacity: 20%;
   color: #757575;
+  opacity: 20%;
 }
 
 .send-icon-container {
   display: inline-block;
   width: 70px;
   height: 50px;
+
   border: none;  
+  
   background-color: #fe8a02;  
   cursor: pointer;  
   content: "";
