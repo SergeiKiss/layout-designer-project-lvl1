@@ -114,9 +114,9 @@ body {
 
   margin: 100px auto;
 
-  color: #2a2626;
-
   overflow-x: hidden;
+
+  color: #2a2626;
 
   font-size: 16px;
   line-height: 1.6em;
@@ -418,10 +418,6 @@ img[alt="main logo"] {
   color: #fff;
 }
 
-.nav-item-box:hover > h3 {
-  color: #fff;
-}
-
 /* 6) Content section */
 
 /* 6.1) common styles */
@@ -590,7 +586,6 @@ input[type="email"] {
   top: 76px;
 }
 
-
 /* 8) Linter requirements */
 
 /* 8.1) from video-section */
@@ -620,5 +615,9 @@ input[type="email"] {
 }
 
 .nav-item-box:hover > p {
+  color: #fff;
+}
+
+.nav-item-box:hover > h3 {
   color: #fff;
 }
