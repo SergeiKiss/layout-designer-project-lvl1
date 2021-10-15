@@ -19,12 +19,6 @@
   src: url(./assets/fonts/Neucha/Neucha-Regular.ttf);
 }
 
-body {
-  color: #2a2626;
-  font-size: 16px;
-  line-height: 1.6em;
-}
-
 .neucha {
   font-family: Neucha, cursive;
 }
@@ -119,6 +113,11 @@ body {
   justify-content: center;
 
   margin: 100px auto;
+
+  color: #2a2626;
+
+  line-height: 1.6em;
+  font-size: 16px;
 
   overflow-x: hidden;
 }
@@ -333,9 +332,7 @@ img[alt="main logo"] {
   margin: 100px 0 0 0;
 }
 
-.video-section > p {
-  margin: 30px auto;
-}
+/* one selector was moved to the end of this document at the request of a linter */
 
 .video-container {
   position: relative;
@@ -423,15 +420,7 @@ img[alt="main logo"] {
   margin: 0;
 }
 
-.nav-item-box > p {
-  position: relative;
-  top: 45px;
-  left: 25px;
-
-  width: 302px;
-
-  margin: 0;
-}
+/* several selectors were moved to the end of this document at the request of a linter */
 
 .nav-item-box:hover > h2 {
   color: #fff;
@@ -441,9 +430,7 @@ img[alt="main logo"] {
   color: #fff;
 }
 
-.nav-item-box:hover > p {
-  color: #fff;
-}
+
 
 /* 6) Content section */
 
@@ -584,6 +571,7 @@ input[type="email"] {
   border: none;
 
   cursor: pointer;
+
   content: "";
 }
 
@@ -610,4 +598,25 @@ input[type="email"] {
 .footer-useful-text {
   position: relative;
   top: 76px;
+}
+
+
+/* 8) Linter requirements */
+
+.video-section > p {
+  margin: 30px auto;
+}
+
+.nav-item-box:hover > p {
+  color: #fff;
+}
+
+.nav-item-box > p {
+  position: relative;
+  top: 45px;
+  left: 25px;
+
+  width: 302px;
+
+  margin: 0;
 }
